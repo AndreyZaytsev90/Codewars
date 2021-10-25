@@ -1,5 +1,5 @@
-/*function problem(x) {
-  if (x >= 0) {
+function problem(x) {
+  /* if (x >= 0) {
     return x * 50 + 6;
   }
 
@@ -7,7 +7,9 @@
     return x * 50 + 6;
   }
   if ((x = " ")) {
-    return Error("Error");
+    return (typeof x === string) ? "Error"
+  }*/
+  function problem(x) {
+    return typeof x === string ? "Error" : x * 50 + 6;
   }
-}*/
-// до лучших времен
+}
