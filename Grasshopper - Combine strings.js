@@ -1,4 +1,3 @@
-function combineNames(firstName, lastName) {
-  return "James " + "Stevens";
+function combineNames(...names) {
+  return names.join(" ");
 }
-// не решено((
