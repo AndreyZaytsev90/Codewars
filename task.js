@@ -20,13 +20,3 @@ function diffBig2(arr) {
   }
   return hidgNum1 - hidgNum2;
 }
-
-const hero = (bullets, dragons) => bullets >= dragons * 2;
-
-function hero(bullets, dragons) {
-  if (bullets >= dragons * 2) {
-    return true;
-  } else {
-    return false;
-  }
-}
