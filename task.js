@@ -20,25 +20,3 @@ function diffBig2(arr) {
   }
   return hidgNum1 - hidgNum2;
 }
-
-function evalObject(value) {
-  var result = 0;
-  switch (value) {
-    case "+":
-      result = value.a + value.b;
-    case "-":
-      result = value.a - value.b;
-    case "/":
-      result = value.a / value.b;
-    case "*":
-      result = value.a * value.b;
-    case "%":
-      result = value.a % value.b;
-    case "^":
-      result = Math.pow(value.a, value.b);
-  }
-  return result;
-}
-
-var websites = [];
-websites.push("codewars");
