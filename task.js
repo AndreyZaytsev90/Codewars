@@ -20,3 +20,5 @@ function diffBig2(arr) {
   }
   return hidgNum1 - hidgNum2;
 }
+
+
