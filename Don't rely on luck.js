@@ -1,0 +1,1 @@
+const guess = 60
